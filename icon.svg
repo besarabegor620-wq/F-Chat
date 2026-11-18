@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#1769e0"/><path d="M112 154c0-28 22-50 50-50h188c28 0 50 22 50 50v137c0 28-22 50-50 50H224l-72 62v-62c-23-5-40-25-40-50z" fill="#fff"/><path d="M183 185h146M183 239h106" stroke="#1769e0" stroke-width="24" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1684ff"/>
+      <stop offset="1" stop-color="#073bc9"/>
+    </linearGradient>
+    <linearGradient id="white" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dceaff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#white)"/>
+  <path d="M157 373 L204 128 Q209 104 235 104 H382 Q399 104 389 125 L368 174 H253 L242 226 H349 Q365 226 355 246 L333 286 H230 L211 354 Q207 373 188 373Z" fill="url(#blue)"/>
+  <path d="M340 290 H424 Q457 290 457 323 V348 Q457 379 424 379 H395 L378 402 V379 H340 Q310 379 310 348 V323 Q310 290 340 290Z" fill="#0750dc"/>
+  <g fill="#fff">
+    <circle cx="348" cy="335" r="9"/>
+    <circle cx="383" cy="335" r="9"/>
+    <circle cx="418" cy="335" r="9"/>
+  </g>
+</svg>
